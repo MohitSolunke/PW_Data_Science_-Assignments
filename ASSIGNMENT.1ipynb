@@ -1,466 +1,123 @@
-{
- "cells": [
-  {
-   "cell_type": "markdown",
-   "id": "8d4def6d-0fdb-4e81-ad3d-fbf891d81e39",
-   "metadata": {},
-   "source": [
-    "Q1. Create one variable containing following type of data:\n",
-    "1) String \n",
-    "2) List\n",
-    "3) Float\n",
-    "4) Tuple"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 1,
-   "id": "3df5a2ed-a0e7-4d41-9bed-f0cc7c3b28f5",
-   "metadata": {},
-   "outputs": [],
-   "source": [
-    "a = \"Mohit\""
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 2,
-   "id": "62206cd0-3594-4f88-8bbb-65ecaf9bada0",
-   "metadata": {},
-   "outputs": [
-    {
-     "data": {
-      "text/plain": [
-       "str"
-      ]
-     },
-     "execution_count": 2,
-     "metadata": {},
-     "output_type": "execute_result"
-    }
-   ],
-   "source": [
-    "type(a)"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 3,
-   "id": "d5376412-833b-4aa6-979b-a09519e33f67",
-   "metadata": {},
-   "outputs": [],
-   "source": [
-    "b = [ 1,2,3,\"Mohit\",23.4]"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 4,
-   "id": "d6303ec5-a05f-4856-952f-1a7570ff840b",
-   "metadata": {},
-   "outputs": [
-    {
-     "data": {
-      "text/plain": [
-       "list"
-      ]
-     },
-     "execution_count": 4,
-     "metadata": {},
-     "output_type": "execute_result"
-    }
-   ],
-   "source": [
-    "type(b)"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 5,
-   "id": "4f008855-137a-4c37-90fd-f78e02e4474f",
-   "metadata": {},
-   "outputs": [],
-   "source": [
-    "c = 23.5"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 6,
-   "id": "3dfce057-487a-4770-ad19-6b38bfa47826",
-   "metadata": {},
-   "outputs": [
-    {
-     "data": {
-      "text/plain": [
-       "float"
-      ]
-     },
-     "execution_count": 6,
-     "metadata": {},
-     "output_type": "execute_result"
-    }
-   ],
-   "source": [
-    "type(c)"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 7,
-   "id": "f952a354-0109-4d71-8997-35704bc28f2b",
-   "metadata": {},
-   "outputs": [],
-   "source": [
-    " d = (1,2,(3,4),[5,6],\"Hel\",'lo')"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 12,
-   "id": "ec94b4f4-f0e8-4007-b804-2f577ce2c67f",
-   "metadata": {},
-   "outputs": [
-    {
-     "data": {
-      "text/plain": [
-       "str"
-      ]
-     },
-     "execution_count": 12,
-     "metadata": {},
-     "output_type": "execute_result"
-    }
-   ],
-   "source": [
-    "type(d)"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "id": "f4bd22d9-96f8-4693-9971-f9681d69036a",
-   "metadata": {},
-   "source": [
-    "Q2. Given are some following variables containing data:(i) var1 = ‘ ‘\n",
-    "(ii) var2 = ‘[ DS , ML , Python]’\n",
-    "(iii) var3 = [ ‘DS’ , ’ML’ , ‘Python’ ]\n",
-    "(iv) var4 = 1."
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 15,
-   "id": "e91c6cda-8904-441c-8122-fa7ceedc38d3",
-   "metadata": {},
-   "outputs": [],
-   "source": [
-    "var1 = ' ' \n",
-    "var2 = '[ DS , ML , Python]'\n",
-    "var3 = [ 'DS' , 'ML' , 'Python' ]\n",
-    "var4 = 1."
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 17,
-   "id": "b7955fe6-2c8b-455c-8216-f29a0804fd0f",
-   "metadata": {},
-   "outputs": [
-    {
-     "data": {
-      "text/plain": [
-       "str"
-      ]
-     },
-     "execution_count": 17,
-     "metadata": {},
-     "output_type": "execute_result"
-    }
-   ],
-   "source": [
-    "type(var1)"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 18,
-   "id": "1e9110e0-4ad8-41c0-9e29-5b5b4a0e2970",
-   "metadata": {},
-   "outputs": [
-    {
-     "data": {
-      "text/plain": [
-       "str"
-      ]
-     },
-     "execution_count": 18,
-     "metadata": {},
-     "output_type": "execute_result"
-    }
-   ],
-   "source": [
-    "type(var2)"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "id": "f40bf838-22af-4594-a7f6-f3b617d6cd9a",
-   "metadata": {},
-   "source": [
-    "type(var3)"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 20,
-   "id": "65e6b5c4-0139-4eef-9517-f4e60b76df1c",
-   "metadata": {},
-   "outputs": [
-    {
-     "data": {
-      "text/plain": [
-       "float"
-      ]
-     },
-     "execution_count": 20,
-     "metadata": {},
-     "output_type": "execute_result"
-    }
-   ],
-   "source": [
-    "type(var4)"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "id": "67a7b873-782f-4ca6-941a-ff8b793f3e66",
-   "metadata": {},
-   "source": [
-    "Q3. Explain the use of the following operators using an example:\n",
-    "\n",
-    "(i) /\n",
-    "(ii) %\n",
-    "(iii) //\n",
-    "(iv) **\n"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "id": "910b9035-db1c-406d-84d2-2077acbab5e0",
-   "metadata": {},
-   "source": [
-    "1) \" / \" :- It's a arithmatic oprator that is use for division of two numbers\n",
-    "\n",
-    "for e.g 👇"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 22,
-   "id": "beb985d0-4f2c-47a3-8e1a-210b330ad7e2",
-   "metadata": {},
-   "outputs": [
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "2.0\n"
-     ]
-    }
-   ],
-   "source": [
-    "a = int(10)\n",
-    "b = int(5)\n",
-    "\n",
-    "c = a / b\n",
-    "print(c)"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "id": "60a532c7-25d6-419c-b037-c3abd5c6d664",
-   "metadata": {},
-   "source": [
-    "2) \"%\" :- It's a Arithmatic Operator , That is use to give the numbers that remaining after division\n",
-    "\n",
-    "for e.g 👇"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 28,
-   "id": "a70b7249-7cc3-4fdb-ae35-cd731110f91f",
-   "metadata": {},
-   "outputs": [
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "2\n"
-     ]
-    }
-   ],
-   "source": [
-    "a = int(9)\n",
-    "b = int(5)\n",
-    "\n",
-    "c = a % b\n",
-    "print(c)"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "id": "21b176c0-a975-489e-a10d-1a6cdb924021",
-   "metadata": {},
-   "source": [
-    "3) \" // \"  :- It's a Arithmatics Operator , That is used to give the integer value before the decimal point.\n",
-    "\n",
-    "for e.g 👇"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 31,
-   "id": "e75a0d39-f993-4542-b7e5-ad81170263a5",
-   "metadata": {},
-   "outputs": [
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "2\n"
-     ]
-    }
-   ],
-   "source": [
-    "a = int(11)\n",
-    "b = int(5)\n",
-    "\n",
-    "c = a // b\n",
-    "print(c)"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "id": "2f0c383d-717d-4b12-aac4-1590b982abbc",
-   "metadata": {},
-   "source": [
-    "4) \" ** \" :- It's a Arithmatic Operator , that is used for exponential perpous \n",
-    "\n",
-    "for e.g 👇"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 33,
-   "id": "73cda92f-4e19-4e65-9cf2-2ec05475b219",
-   "metadata": {},
-   "outputs": [
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "8\n"
-     ]
-    }
-   ],
-   "source": [
-    "a = int(2)\n",
-    "b = int(3)\n",
-    "\n",
-    "c = a ** b\n",
-    "print(c)"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "id": "f7ee08e4-a3ae-4cc4-87b4-28391056513f",
-   "metadata": {},
-   "source": [
-    "Q4. Create a list of length 10 of your choice containing multiple types of data. Using for loop print the\n",
-    "element and its data type."
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 37,
-   "id": "91f45351-255f-46e8-8abf-495ad54e7725",
-   "metadata": {},
-   "outputs": [
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "<class 'int'>\n",
-      "1\n",
-      "<class 'int'>\n",
-      "2\n",
-      "<class 'str'>\n",
-      "Mohit\n",
-      "<class 'float'>\n",
-      "23.4\n",
-      "<class 'str'>\n",
-      "TRUE\n",
-      "<class 'str'>\n",
-      "HELLO\n",
-      "<class 'int'>\n",
-      "7\n",
-      "<class 'float'>\n",
-      "33.33\n",
-      "<class 'str'>\n",
-      "FALSE\n",
-      "<class 'str'>\n",
-      "GOOD\n"
-     ]
-    }
-   ],
-   "source": [
-    " l = [ 1,2,\"Mohit\",23.4,\"TRUE\",'HELLO',7,33.33, \"FALSE\",\"GOOD\"]\n",
-    "    \n",
-    "for i in l:\n",
-    "    print(type(i))\n",
-    "    print(i)\n",
-    "        \n",
-    "\n"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "id": "3a5173d4-5aac-4786-8a38-e0241e2c2148",
-   "metadata": {},
-   "source": [
-    "Q5. Using a while loop, verify if the number A is purely divisible by number B and if so then how many\n",
-    "times it can be divisible."
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "id": "a336e54f-6815-4439-ba11-78bfd9f83839",
-   "metadata": {},
-   "outputs": [],
-   "source": []
-  }
- ],
- "metadata": {
-  "kernelspec": {
-   "display_name": "Python 3 (ipykernel)",
-   "language": "python",
-   "name": "python3"
-  },
-  "language_info": {
-   "codemirror_mode": {
-    "name": "ipython",
-    "version": 3
-   },
-   "file_extension": ".py",
-   "mimetype": "text/x-python",
-   "name": "python",
-   "nbconvert_exporter": "python",
-   "pygments_lexer": "ipython3",
-   "version": "3.10.8"
-  }
- },
- "nbformat": 4,
- "nbformat_minor": 5
-}
+
+Q1. Create one variable containing following type of data:
+
+1) String 
+2) List
+3) Float
+4) Tuple
+
+a = "Mohit"
+type(a)
+type(a)
+str
+
+b = [ 1,2,3,"Mohit",23.4]
+type(b)
+list
+
+c = 23.5
+type(c)
+float
+
+ d = (1,2,(3,4),[5,6],"Hel",'lo')
+type(d)
+str
+
+
+Q2. Given are some following variables containing data:
+(i) var1 = ‘ ‘ 
+(ii) var2 = ‘[ DS , ML , Python]’ 
+(iii) var3 = [ ‘DS’ , ’ML’ , ‘Python’ ] 
+(iv) var4 = 1.
+
+var1 = ' ' 
+var2 = '[ DS , ML , Python]'
+var3 = [ 'DS' , 'ML' , 'Python' ]
+var4 = 1.
+
+type(var1)
+str
+
+type(var2)
+str
+
+type(var3)
+str
+
+type(var4)
+float
+
+Q3. Explain the use of the following operators using an example:
+
+(i) / (ii) % (iii) // (iv) **
+
+" / " :- It's a arithmatic oprator that is use for division of two numbers
+for e.g 👇
+
+a = int(10)
+b = int(5)
+
+c = a / b
+print(c)
+
+2.0
+
+"%" :- It's a Arithmatic Operator , That is use to give the numbers that remaining after division
+for e.g 👇
+
+a = int(9)
+b = int(5)
+
+c = a % b
+print(c)
+2
+
+" // " :- It's a Arithmatics Operator , That is used to give the integer value before the decimal point.
+for e.g 👇
+
+a = int(11)
+b = int(5)
+
+c = a // b
+print(c)
+
+2
+
+" ** " :- It's a Arithmatic Operator , that is used for exponential perpous
+for e.g 👇
+
+a = int(2)
+b = int(3)
+
+c = a ** b
+print(c)
+8
+Q4. Create a list of length 10 of your choice containing multiple types of data. Using for loop print the element and its data type.
+
+print(i)
+ l = [ 1,2,"Mohit",23.4,"TRUE",'HELLO',7,33.33, "FALSE","GOOD"]
+    
+for i in l:
+    print(type(i))
+    print(i)
+        
+<class 'int'>
+1
+<class 'int'>
+2
+<class 'str'>
+Mohit
+<class 'float'>
+23.4
+<class 'str'>
+TRUE
+<class 'str'>
+HELLO
+<class 'int'>
+7
+<class 'float'>
+33.33
+<class 'str'>
+FALSE
+<class 'str'>
+GOOD
